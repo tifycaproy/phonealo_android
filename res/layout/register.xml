@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/font6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/assistant_generic_account"
+            android:textAllCaps="true"
+            android:textColor="@color/colorA" />
+
+        <TextView
+            android:text="@string/assistant_login_desc"
+            style="@style/font11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/font13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                android:textAllCaps="true"
+                android:textColor="@color/colorA" />
+
+            <EditText
+                android:id="@+id/username"
+                android:background="@drawable/resizable_textfield"
+                android:textColor="@color/colorB"
+                android:inputType="text|textNoSuggestions"
+                android:contentDescription="@string/content_description_username_field"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:singleLine="true"/>
+
+            <TextView
+                style="@style/font13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/phone_number"
+                android:textAllCaps="true"
+                android:textColor="@color/colorA" />
+
+            <EditText
+                android:id="@+id/phoneNumber"
+                android:background="@drawable/resizable_textfield"
+                android:textColor="@color/colorB"
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:singleLine="true"/>
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/font13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/country"
+                android:textAllCaps="true"
+                android:textColor="@color/colorA" />
+
+            <TextView
+                android:id="@+id/country"
+                android:gravity="center_vertical"
+                android:background="@drawable/resizable_textfield"
+                android:textColor="@color/colorB"
+                android:textSize="18dp"
+                android:contentDescription="@string/content_description_domain_field"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                style="@style/font13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/email"
+                android:textAllCaps="true"
+                android:textColor="@color/colorA" />
+
+            <EditText
+                android:id="@+id/email"
+                android:background="@drawable/resizable_textfield"
+                android:textColor="@color/colorB"
+                android:inputType="textEmailAddress"
+                android:contentDescription="@string/content_description_display_field"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:singleLine="true"/>
+
+            <Button
+                android:id="@+id/register_apply"
+                android:text="@string/assistant_login"
+                android:background="@drawable/assistant_button"
+                android:textColor="@drawable/assistant_button_text_color"
+                style="@style/font8"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

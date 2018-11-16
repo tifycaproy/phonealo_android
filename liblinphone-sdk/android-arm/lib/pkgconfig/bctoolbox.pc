@@ -1,0 +1,10 @@
+# This is a comment
+prefix=/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm
+exec_prefix=/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm
+
+Name:  bctoolbox
+Description: A common set of tools used by Belledonne Communications' softwares
+Version: 0.3.0
+Libs: -L/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm/lib -lbctoolbox
+Libs.private:  -L
+Cflags: -I/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm/include

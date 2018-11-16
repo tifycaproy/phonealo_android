@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--Custom-->
+  <string name="app_name">Phonealo</string>
+  <string name="service_name">phonealo Service</string>
+  <string name="addressbook_label">phonealo</string>
+  <string name="notification_title">phonealo</string>
+  <string name="wait_dialog_text">Iniciando</string>
+  <string name="tunnel_host"></string>
+  <string name="sync_account_name">contactos phonealo</string>
+  <string name="today_date_format">HH:mm</string>
+  <!--Common-->
+  <string name="username">Nombre de usuario</string>
+  <string name="display_name">Nombre a mostrar</string>
+  <string name="password">Contraseña</string>
+  <string name="country">País</string>
+  <string name="delete">Borrar</string>
+  <string name="retry">Reintentar</string>
+  <string name="cancel">Cancelar</string>
+  <string name="accept">Aceptar</string>
+  <string name="continue_text">Continuar</string>
+  <string name="deny">Rechazar</string>
+  <string name="search">Buscar</string>
+  <string name="outgoing">Saliente</string>
+  <string name="incoming">Entrante</string>
+  <string name="settings">Configuración</string>
+  <string name="decline">Declinar</string>
+  <string name="conference">Conferencia</string>
+  <!--Launch screen-->
+  <!--Assistant-->
+  <string name="assistant">Registro</string>
+  <string name="assistant_welcome_desc">Este asistente te ayudará a usar una cuanta SIP para tus llamadas.</string>
+  <string name="transport">Transporte</string>
+  <string name="assistant_account_not_validated">Su cuenta aún no ha sido verificada.</string>
+  <string name="assistant_account_validated">Su cuenta ha sido verificada.</string>
+  <string name="wizard_failed">Ha ocurrido un error, pruebe más tarde.</string>
+  <string name="wizard_username_unavailable">Este nombre de usuario está en uso.</string>
+  <string name="first_launch_no_login_password">Por favor, introduzca su usuario y contraseña</string>
+  <string name="assistant_login_desc">Introduzca sus datos para registrarse</string>
+  <string name="assistant_generic_account">Crea Tu Phonealo</string>
+  <!--Dailer-->
+  <!--History-->
+  <string name="today">Hoy</string>
+  <string name="yesterday">Ayer</string>
+  <!--Contacts-->
+  <string name="no_contact">No hay contactos en su agenda de contactos.</string>
+  <string name="no_sip_contact">No hay contactos en su agenda de contactos.</string>
+  <string name="sip_address">Dirección SIP</string>
+  <string name="phone_number">Número de teléfono</string>
+  <string name="contact_first_name">Nombre</string>
+  <string name="contact_last_name">Apellido</string>
+  <!--Chat-->
+  <string name="no_balance">No tienes saldo</string>
+  <string name="share_picture_size_small">Pequeño</string>
+  <string name="share_picture_size_medium">Mediano</string>
+  <string name="share_picture_size_large">Grande</string>
+  <string name="share_picture_size_real">Tamaño real</string>
+  <string name="text_copied_to_clipboard">Texto copiado al portapapeles</string>
+  <string name="copy_text">Copiar texto</string>
+  <string name="image_picker_title">Seleccionar fuente</string>
+  <string name="image_saved">Imagen guardada</string>
+  <string name="image_not_saved">Error, imagen no guardada</string>
+  <string name="wait">Por favor, espere...</string>
+  <!--Status Bar-->
+  <string name="status_connected">Registrado</string>
+  <string name="status_in_progress">Registrando</string>
+  <string name="status_error">Fallo al registrar</string>
+  <string name="voicemail_unread">mensajes sin leer</string>
+  <!--Side Menu-->
+  <string name="menu_settings">Configuración</string>
+  <!--Call-->
+  <string name="unknown_incoming_call_name">Desconocido</string>
+  <string name="call_stats_audio">Audio</string>
+  <string name="call_stats_video">Vídeo</string>
+  <string name="call_stats_codec">Codec:</string>
+  <string name="call_stats_upload">Ancho de banda de subida:</string>
+  <string name="call_stats_download">Ancho de banda de bajada:</string>
+  <string name="call_stats_ice">Conectividad ICE</string>
+  <string name="call_stats_video_resolution">Tamaño de vídeo:</string>
+  <string name="call">Llamar</string>
+  <!--About-->
+  <string name="menu_send_log">Enviar registro</string>
+  <string name="menu_reset_log">Reiniciar registro</string>
+  <!--Service-->
+  <string name="incall_notif_active">Llamada saliente</string>
+  <string name="incall_notif_paused">Llamada saliente pausada</string>
+  <string name="incall_notif_video">Captura de vídeo saliente</string>
+  <string name="notification_started">iniciado</string>
+  <!--Errors-->
+  <string name="skipable_error_service_not_ready">Aviso: el servicio no está preparado</string>
+  <string name="error">Error</string>
+  <string name="error_unknown">Error desconocido</string>
+  <string name="error_call_declined">Llamada rechazada</string>
+  <string name="error_user_not_found">Usuario no encontrado</string>
+  <string name="error_network_unreachable">Red inalcanzable</string>
+  <string name="error_unauthorized">No autorizado</string>
+  <string name="error_io_error">Error de red</string>
+  <!--Account Settings-->
+  <string name="pref_sipaccount">Cuenta SIP</string>
+  <string name="pref_disable_account">Deshabilitar</string>
+  <string name="pref_proxy">Proxy</string>
+  <string name="pref_domain">Dominio*</string>
+  <string name="pref_passwd">Contraseña*</string>
+  <string name="pref_username">Nombre de usuario*</string>
+  <string name="pref_enable_outbound_proxy">Proxy saliente</string>
+  <string name="pref_help_username">Ejemplo: john si tu cuenta es john@sip.example.org</string>
+  <string name="pref_help_domain">sip.example.org si su cuenta es john@sip.example.org</string>
+  <string name="pref_avpf">AVPF</string>
+  <string name="pref_escape_plus">Sustituir + por 00</string>
+  <string name="pref_display_name">Nombre a mostrar</string>
+  <string name="pref_prefix">Prefijo</string>
+  <string name="pref_transport">Transporte</string>
+  <string name="pref_transport_udp">UDP</string>
+  <string name="pref_transport_tcp">TCP</string>
+  <string name="pref_transport_tls">TLS</string>
+  <string name="pref_delete_account">Borrar ésta cuenta</string>
+  <string name="pref_default_account">Usar como predeterminada</string>
+  <!--Settings-->
+  <string name="pref_sipaccounts">Cuentas SIP</string>
+  <string name="default_account_flag">Cuenta por defecto</string>
+  <string name="pref_add_account">Añadir cuenta</string>
+  <string name="pref_tunnel">Túnel</string>
+  <string name="pref_tunnel_port">Puerto</string>
+  <string name="pref_tunnel_mode">Modo</string>
+  <!--do not change order without changing corresponding entry_values in non_localizable_strings.xml-->
+  <string-array name="tunnel_mode_entries">
+    <item>deshabilitado</item>
+    <item>sólo 3G</item>
+    <item>siempre</item>
+    <item>auto</item>
+  </string-array>
+  <string name="pref_none">Ninguno.</string>
+  <string name="pref_preferences_title">Preferencias</string>
+  <string name="pref_video_enable_title">Habilitar Vídeo</string>
+  <!--Audio settings-->
+  <string name="pref_audio_title">Audio</string>
+  <string name="pref_echo_cancellation">Cancelación de eco</string>
+  <string name="ec_calibrating">Calibrando...</string>
+  <string name="pref_codecs">Codecs</string>
+  <!--Video settings-->
+  <string name="pref_video_title">Vídeo</string>
+  <string name="pref_video_use_front_camera_title">Usar cámara frontal</string>
+  <string name="pref_video_initiate_call_with_video_title">Iniciar videollamadas</string>
+  <string name="pref_video_initiate_call_with_video">Siempre enviar peticiones de vídeo</string>
+  <string name="pref_video_automatically_accept_video_title">Aceptar peticiones de vídeo entrantes</string>
+  <string name="pref_video_automatically_accept_video">Aceptar peticiones de vídeo siempre</string>
+  <string name="pref_preferred_video_size">Tamaño de vídeo preferido</string>
+  <string name="pref_bandwidth_limit">Limite de ancho de banda en kbits/s</string>
+  <string name="pref_video_codecs_title">Codecs</string>
+  <!--Call settings-->
+  <string name="pref_call_title">Llamar</string>
+  <string name="pref_rfc2833_dtmf">Enviar DTMS RFC2833</string>
+  <!--Chat settings-->
+  <string name="pref_chat_title">Chat</string>
+  <!--Network settings-->
+  <string name="pref_network_title">Red</string>
+  <string name="pref_ice_enable">Activar ICE</string>
+  <string name="pref_transport_use_random_ports">Usar puertos aleatorios</string>
+  <string name="pref_sip_port_title">Puerto SIP a usar</string>
+  <string name="pref_video_port_title">Puerto (o rango) para vídeo</string>
+  <string name="pref_audio_port_title">Puerto (o rango) para audio</string>
+  <string name="pref_push_notification">Activar notificaciones push</string>
+  <!--Advanced settings-->
+  <string name="pref_advanced_title">Avanzado</string>
+  <string name="pref_debug">Desarrollo</string>
+  <string name="pref_animation_enable_title">Habilitar animaciones</string>
+  <string name="pref_autostart">Arrancar al inicio</string>
+  <string name="pref_primary_account_title">Cuenta principal</string>
+  <string name="pref_display_name_title">Nombre a mostrar</string>
+  <string name="pref_user_name_title">Nombre de usuario</string>
+  <!--Audio hack settings-->
+  <string name="pref_audio_hacks_title">Trucos de audio</string>
+  <string name="pref_audio_hacks_use_galaxys_hack_title">Usar truco para Galaxy S </string>
+  <!--Content description-->
+  <string name="content_description_back">Atras</string>
+  <string name="content_description_dialer">Marcador</string>
+  <string name="content_description_toggle_micro">Conmutar micrófono</string>
+  <string name="content_description_toggle_speaker">Conmutar altavoz</string>
+  <string name="content_description_decline">Declinar</string>
+  <string name="content_description_hang_up">Colgar</string>
+  <string name="content_description_accept">Aceptar</string>
+  <string name="content_description_edit">Editar</string>
+  <string name="content_description_add_contact">Añadir a contactos</string>
+  <string name="content_description_new_contact">Contacto nuevo</string>
+  <string name="content_description_call">Llamar</string>
+  <string name="content_description_chat">Chat</string>
+  <string name="content_description_dial_back">Devolver llamada</string>
+  <string name="content_description_contact_picture">Imagen de contacto</string>
+  <string name="content_description_send_message">Enviar mensaje</string>
+  <string name="content_description_delete">Borrar</string>
+  <string name="content_description_add">Añadir llamada</string>
+  <string name="content_description_search">Buscar</string>
+  <string name="content_description_all_contacts">Todos los contactos</string>
+  <string name="content_description_linphone_contacts">Contactos de phonealo</string>
+  <string name="content_description_all_calls">Todas las llamadas</string>
+  <string name="content_description_missed_calls">Llamadas perdidas</string>
+  <string name="content_description_switch_video">Conmutar vídeo</string>
+  <string name="content_description_add_call">Añadir llamada</string>
+  <string name="content_description_pause">Pausar</string>
+  <string name="content_description_numpad">Teclado numerico</string>
+  <string name="content_description_call_quality">Calidad de la llamada</string>
+  <string name="content_description_conference">Conferencia</string>
+  <string name="content_description_default_account">Cuenta por defecto</string>
+  <string name="content_description_contact_first_name">Nombre</string>
+  <string name="content_description_contact_last_name">Apellido</string>
+  <string name="content_description_transfer">Transferir</string>
+  <string name="content_description_bluetooth">Bluetooth</string>
+  <string name="about">About</string>
+  <string name="about_liblinphone_version" translatable="false">phonealo Core %s</string>
+  <string name="about_link" translatable="false">www.phonealo.com</string>
+  <string name="about_text" translatable="false">© 2018 Apel Global GSMA SRL</string>
+  <string name="about_bugreport_email">www.phonealo.com</string>
+  <string name="about_version" translatable="false">phonealo Android %s</string>
+  <string name="account_already_exist" translatable="false">Su cuenta ya existe</string>
+  <string name="add_video_dialog" translatable="false">Your correspondent would like to turn on video</string>
+  <string name="address_bar_hint" translatable="false">Introduzca el número</string>
+  <string name="app_description" translatable="false">Tu <i>app</i> de llamadas</string>
+  <string name="assistant_activate" translatable="false">Active su cuenta</string>
+  <string name="assistant_choose_country" translatable="false">Escoja el pais</string>
+  <string name="assistant_codec_down_question" translatable="false">Do you agree to download OpenH264 Video Codec provided by Cisco Systems, Inc.?</string>
+  <string name="assistant_codec_downloaded" translatable="false">OpenH264 Video Codec provided by Cisco Systems, Inc. downloaded.</string>
+  <string name="assistant_codec_downloading" translatable="false">Downloading OpenH264 Video Codec provided by Cisco Systems, Inc.</string>
+  <string name="assistant_continue" translatable="false">Continuar</string>
+  <string name="assistant_create_account" translatable="false">Cree su cuenta</string>
+  <string name="assistant_create_account_part_1" translatable="false">Por Favor confirme su pais y introduzca su numero de telefono</string>
+  <string name="assistant_create_account_part_2" translatable="false">Hemos enviado un sms para validar su cuenta</string>
+  <string name="assistant_display_name_optional" translatable="false">Display name (optional)</string>
+  <string name="assistant_ec_calibration" translatable="false">Echo canceler calibration in progress</string>
+  <string name="assistant_error_bad_credentials" translatable="false">Incorrect username or password</string>
+  <string name="assistant_fetch_apply" translatable="false">Fetch and apply</string>
+  <string name="assistant_finish" translatable="false">Finish configuration</string>
+  <string name="assistant_linphone_account" translatable="false">Use your phonealo account</string>
+  <string name="assistant_linphone_login_desc" translatable="false">Enter your username and password of phonealo account</string>
+  <string name="assistant_login" translatable="false">Registrate</string>
+  <string name="assistant_login_generic" translatable="false">Use SIP account</string>
+  <string name="assistant_login_linphone" translatable="false">Use phonealo account</string>
+  <string name="assistant_phone_number_incorrect" translatable="false">Your phone number is invalid.</string>
+  <string name="assistant_phone_number_unavailable" translatable="false">This phone number is already in use.</string>
+  <string name="assistant_remote_provisioning" translatable="false">Fetch remote configuration</string>
+  <string name="assistant_remote_provisioning_desc" translatable="false">Please provide your provisioning URL</string>
+  <string name="assistant_remote_provisioning_login" translatable="false">Enter your login</string>
+  <string name="assistant_remote_provisioning_title" translatable="false">Fetch remote configuration</string>
+  <string name="assistant_validate_account" translatable="false">Your account is created. Please check your mails to validate your account. Once it is done, come back here and click on the button.</string>
+  <string name="call_paused_by_remote">Your correspondent paused the call</string>
+  <string name="confirm_password">Password confirmation</string>
+  <string name="connect">Connection</string>
+  <string name="contact_organization">Organizacion</string>
+  <string name="content_description_audio_route" translatable="false">Audio route</string>
+  <string name="content_description_back_call">Back to call</string>
+  <string name="content_description_backspace">Backspace</string>
+  <string name="content_description_call_direction" translatable="false">Call direction</string>
+  <string name="content_description_call_options">Call options</string>
+  <string name="content_description_cancel_button">Cancel button</string>
+  <string name="content_description_chat_button">Chat button</string>
+  <string name="content_description_confirm_password_field">Confirm password field</string>
+  <string name="content_description_contact_organization">Organization</string>
+  <string name="content_description_contacts">Contacts button</string>
+  <string name="content_description_delete_selection">Delete selection</string>
+  <string name="content_description_deselect_all">Deselect all</string>
+  <string name="content_description_detail">Detalle</string>
+  <string name="content_description_dialer_back">Regresa al marcador</string>
+  <string name="content_description_display_field">Display name field</string>
+  <string name="content_description_domain_field">Domain field</string>
+  <string name="content_description_earpiece">Auricular</string>
+  <string name="content_description_edit_list" translatable="false">Editar lista</string>
+  <string name="content_description_email_field" translatable="false">Email</string>
+  <string name="content_description_encryption" translatable="false">Encriptacion</string>
+  <string name="content_description_exit_conference" translatable="false">Salir de conferencia</string>
+  <string name="content_description_history">Historial</string>
+  <string name="content_description_menu" translatable="false">Menu</string>
+  <string name="content_description_message" translatable="false">Mensaje</string>
+  <string name="content_description_message_status" translatable="false">Mensaje status</string>
+  <string name="content_description_new_discussion">New discussion</string>
+  <string name="content_description_search_contact">Buscar contacto</string>
+  <string name="content_description_search_country">Search country</string>
+  <string name="content_description_select_all">Selecionar todo</string>
+  <string name="content_description_send_file" translatable="false">Send a file</string>
+  <string name="content_description_switch_camera">Switch camera</string>
+  <string name="content_description_unread_chat_message">Unread chat message</string>
+  <string name="content_description_url_field">Remote provisioning field</string>
+  <string name="content_description_username_field">Username field</string>
+  <string name="content_description_valid">Valid</string>
+  <string name="couldnt_accept_call">An error occurred while accepting the call</string>
+  <string name="country_code">(+%s)</string>
+  <string name="debug_popup_title">Debug</string>
+  <string name="default_domain" translatable="false">www.phonealo.com</string>
+  <string name="default_stun" translatable="false">www.phonealo.com</string>
+  <string name="delete_contact">Quiere eliminar los contactos selecionados?</string>
+  <string name="delete_contacts">Seguro quiere eliminar los contactos?</string>
+  <string name="delete_conversation">Quiere eliminar la conversacion?</string>
+  <string name="delete_history_log">Quiere eliminar las llamadas selecionadas?</string>
+  <string name="delete_message">Quiere eliminar los mensajes seleccionados?</string>
+  <string name="delete_text">Esta seguro que quiere eliminar la selccion?</string>
+  <string name="dollar_char">$</string>
+  <string name="domain" translatable="false">Domain</string>
+  <string name="download_image_failed">Download failed. Please check your network connection or try again later.</string>
+  <string name="ec_calibrated">Calibrated in %s ms</string>
+  <string name="email">Email</string>
+  <string name="error_bad_credentials">Malas credenciales</string>
+  <string name="error_incompatible_media">Incompatible media parameters</string>
+  <string name="error_low_bandwidth">Your correspondent has low bandwidth, video cannot be started</string>
+  <string name="error_user_busy">Usuario ocupado</string>
+  <string name="euro_char">€</string>
+  <string name="failed">fallada</string>
+  <string name="first_launch_suceeded_once_key">first_launch_suceeded_once_key</string>
+  <string name="forgot_password">Olvido su contrasena ?</string>
+  <string name="history_date_format">EEE, d MMM</string>
+  <string name="history_detail_date_format" translatable="false">"yyyy/MM/dd - HH:mm - "</string>
+  <string name="inapp" translatable="false">In-app</string>
+  <string name="inapp_notification_account_expire">The subscription period expires on %s</string>
+  <string name="inapp_notification_title">In-app purchase</string>
+  <string name="inapp_notification_trial_expire">The trail period expires on %s</string>
+  <string name="inapp_popup_date_day">dd</string>
+  <string name="inapp_popup_date_format">yyyy/MM/dd</string>
+  <string name="incoming_call">Llamada entrante</string>
+  <string name="invalid_domain" translatable="false">Dominio no valido</string>
+  <string name="invalid_email" translatable="false">correo no valido</string>
+  <string name="invalid_route" translatable="false">ruta no valida</string>
+  <string name="invalid_username" translatable="false">Usuario erroneo</string>
+  <string name="later" translatable="false">Later</string>
+  <string name="lime_encryption_entry_disabled" translatable="false">Desabilitado</string>
+  <string name="lime_encryption_entry_mandatory" translatable="false">Mandatory</string>
+  <string name="lime_encryption_entry_preferred" translatable="false">Preferred</string>
+  <string name="link_account" translatable="false">Link account</string>
+  <string name="link" translatable="false">Link</string>
+  <string name="link_account_popup" translatable="false">Do you want to link the account %s with your phone number ?</string>
+  <string name="login_with_username" translatable="false">Do you want to link the account %s with your phone number ?</string>
+  <string name="maybe_later" translatable="false">Maybe later</string>
+  <string name="media_encryption_dtls" translatable="false">DTLS</string>
+  <string name="media_encryption_srtp" translatable="false">SRTP</string>
+  <string name="media_encryption_zrtp" translatable="false">ZRTP</string>
+  <string name="menu_about" translatable="false">About</string>
+  <string name="menu_about_key" translatable="false">menu_about_key</string>
+  <string name="menu_assistant" translatable="false">Assistant</string>
+  <string name="messages_date_format" translatable="false">dd/MM, HH:mm</string>
+  <string name="messages_list_date_format" translatable="false">dd/MM</string>
+  <string name="missed" translatable="false">Perdidas</string>
+  <string name="missed_calls_notif_body" translatable="false">%i missed calls</string>
+  <string name="missed_calls_notif_title" translatable="false">Llamadas perdidas</string>
+  <string name="no" translatable="false">No</string>
+  <string name="no_account" translatable="false">Cuenta no configurada</string>
+  <string name="no_call_history" translatable="false">No hay llamadas en tu historial</string>
+  <string name="no_chat_history" translatable="false">No hay conversaciones</string>
+  <string name="no_current_call" translatable="false">No hay llamadas activas</string>
+  <string name="no_echo" translatable="false">No echo</string>
+  <string name="no_missed_call_history" translatable="false">No hay llamadas perdidas en tu historial</string>
+  <string name="notification_register_failure" translatable="false">%s fallo de registro</string>
+  <string name="notification_registered" translatable="false">%s registrado</string>
+  <string name="ok" translatable="false">Ok</string>
+  <string name="outgoing_call" translatable="false">llamada saliente</string>
+  <string name="password_too_long" translatable="false">Password too long</string>
+  <string name="password_too_short" translatable="false">Password too short</string>
+  <string name="phone_number_info_content" translatable="false">" Thanks to your phone number, your friends will find you more easily.  You will see in your addressbook who is using phonealo and your friends will know that they can rach you on phonealo as well. "</string>
+  <string name="phone_number_info_title" translatable="false">What will my phone number be used for?</string>
+  <string name="phone_number_invalid" translatable="false">Invalid phone number</string>
+  <string name="phone_number_link_info_content" translatable="false">" Your friends will find your more easily if you link your account to your phone number  You will see in your addressbook who is using phonealo and your friends will know that they can rach you on phonealo as well. "</string>
+  <string name="phone_number_too_long" translatable="false">Phone number too long</string>
+  <string name="phone_number_too_short" translatable="false">Phone number too short</string>
+  <string name="pin" translatable="false">Introduce el PIN:</string>
+  <string name="pref_activated_key" translatable="false">pref_activated_key</string>
+  <string name="pref_adaptive_rate_control" translatable="false">Adaptive rate control</string>
+  <string name="pref_adaptive_rate_control_key" translatable="false">pref_adaptive_rate_control_key</string>
+  <string name="pref_add_account_key" translatable="false">pref_add_account_key</string>
+  <string name="pref_advanced_key" translatable="false">pref_advanced_key</string>
+  <string name="pref_android_app_settings_key" translatable="false">pref_android_app_settings_key</string>
+  <string name="pref_android_app_settings_title" translatable="false">Android app settings</string>
+  <string name="pref_animation_enable_key" translatable="false">pref_animation_enable_key</string>
+  <string name="pref_audio_hacks_use_galaxys_hack_key" translatable="false">pref_audio_hacks_use_galaxys_hack_key</string>
+  <string name="pref_audio_hacks_use_routing_api_key" translatable="false">pref_audio_hacks_use_routing_api_key</string>
+  <string name="pref_audio_hacks_use_routing_api_title" translatable="false">Use routing API hack</string>
+  <string name="pref_audio_port_description" translatable="false">Audio port or port range (minport-maxport)</string>
+  <string name="pref_audio_port_key" translatable="false">pref_audio_port_key</string>
+  <string name="pref_audio_ringtone" translatable="false">pref_audio_ringtone</string>
+  <string name="pref_audio_soft_volume_key" translatable="false">pref_audio_soft_volume_key</string>
+  <string name="pref_audio_use_specific_mode_key" translatable="false">pref_audio_use_specific_mode_key</string>
+  <string name="pref_audio_use_specific_mode_summary" translatable="false">0=MODE_NORMAL (default), 2=MODE_IN_CALL</string>
+  <string name="pref_audio_use_specific_mode_title" translatable="false">Use specific mode hack</string>
+  <string name="pref_auth_userid" translatable="false">Auth userid</string>
+  <string name="pref_auth_userid_key" translatable="false">pref_auth_userid_key</string>
+  <string name="pref_auto_accept_friends_key" translatable="false">pref_auto_accept_friends_key</string>
+  <string name="pref_auto_answer" translatable="false">Auto answer incoming calls</string>
+  <string name="pref_auto_answer_key" translatable="false">pref_auto_answer_key</string>
+  <string name="pref_autostart_key" translatable="false">pref_autostart_key</string>
+  <string name="pref_avpf_key" translatable="false">pref_avpf_key</string>
+  <string name="pref_avpf_rr_interval" translatable="false">" AVPF regular RTCP interval in seconds (between 1 and 5)"</string>
+  <string name="pref_avpf_rr_interval_key" translatable="false">pref_avpf_rr_interval_key</string>
+  <string name="pref_background_mode" translatable="false">Background mode</string>
+  <string name="pref_background_mode_key" translatable="false">pref_background_mode_key</string>
+  <string name="pref_bandwidth_limit_key" translatable="false">pref_bandwidth_limit_key</string>
+  <string name="pref_codec_bitrate_limit" translatable="false">Codec bitrate limit</string>
+  <string name="pref_codecs_key" translatable="false">pref_codecs_key</string>
+  <string name="pref_debug_key" translatable="false">pref_debug_key</string>
+  <string name="pref_default_account_key" translatable="false">pref_default_account</string>
+  <string name="pref_device_ringtone" translatable="false">Use device ringtone</string>
+  <string name="pref_device_ringtone_key" translatable="false">pref_device_ringtone_key</string>
+  <string name="pref_disable_account_key" translatable="false">pref_disable_account_key</string>
+  <string name="pref_display_name_key" translatable="false">pref_display_name_key</string>
+  <string name="pref_domain_key" translatable="false">pref_domain_key</string>
+  <string name="pref_echo_cancellation_key" translatable="false">pref_echo_cancellation_key</string>
+  <string name="pref_echo_cancellation_summary" translatable="false">Removes the echo heard by other end</string>
+  <string name="pref_echo_canceller_calibration" translatable="false">Echo canceler calibration</string>
+  <string name="pref_echo_canceller_calibration_key" translatable="false">pref_echo_canceller_calibration_key</string>
+  <string name="pref_echo_tester" translatable="false">Test echo</string>
+  <string name="pref_echo_tester_key" translatable="false">pref_echo_tester_key</string>
+  <string name="pref_enable_outbound_proxy_key" translatable="false">Outbound proxy</string>
+  <string name="pref_escape_plus_key" translatable="false">pref_escape_plus_key</string>
+  <string name="pref_expire_key" translatable="false">pref_expire_key</string>
+  <string name="pref_expire_title" translatable="false">Expire</string>
+  <string name="pref_extra_accounts" translatable="false">pref_nb_accounts_extra</string>
+  <string name="pref_first_time_linphone_chat_storage" translatable="false">pref_first_time_linphone_chat_storage</string>
+  <string name="pref_friendlist_subscribe" translatable="false">Friendlist subscribe</string>
+  <string name="pref_friendlist_subscribe_key" translatable="false">pref_friendlist_subscribe_key</string>
+  <string name="pref_help_auth_userid" translatable="false">Enter authentication userid (optional)</string>
+  <string name="pref_help_display_name" translatable="false">Enter display name (optional)</string>
+  <string name="pref_help_outbound_proxy" translatable="false">Route all calls through SIP proxy</string>
+  <string name="pref_help_password" translatable="false">You have to re-enter your password if you edit your username and/or the domain</string>
+  <string name="pref_help_proxy" translatable="false">SIP proxy hostname or ip address (optional)</string>
+  <string name="pref_ice_enable_key" translatable="false">pref_ice_enable_key</string>
+  <string name="pref_image_sharing_server_desc" translatable="false">Do not edit unless you know what you are doing!</string>
+  <string name="pref_image_sharing_server_key" translatable="false">pref_image_sharing_server_key</string>
+  <string name="pref_image_sharing_server_title" translatable="false">Sharing server</string>
+  <string name="pref_in_app_store" translatable="false">In-app Store</string>
+  <string name="pref_in_app_store_key" translatable="false">pref_in_app_store_key</string>
+  <string name="pref_incoming_call_timeout_key" translatable="false">pref_incoming_expire_key</string>
+  <string name="pref_incoming_call_timeout_title" translatable="false">Incoming call hangup (in seconds)</string>
+  <string name="pref_ipv6_key" translatable="false">pref_ipv6_key</string>
+  <string name="pref_ipv6_title" translatable="false">Allow IPv6</string>
+  <string name="pref_link_account" translatable="false">Link account</string>
+  <string name="pref_link_account_key" translatable="false">pref_link_account_key</string>
+  <string name="pref_manage_key" translatable="false">pref_manage_key</string>
+  <string name="pref_manage_title" translatable="false">Manage</string>
+  <string name="pref_media_encryption" translatable="false">Media encryption</string>
+  <string name="pref_media_encryption_key" translatable="false">pref_media_encryption_key</string>
+  <string name="pref_media_encryption_key_dtls" translatable="false">dtls</string>
+  <string name="pref_media_encryption_key_none" translatable="false">none</string>
+  <string name="pref_media_encryption_key_srtp" translatable="false">srtp</string>
+  <string name="pref_media_encryption_key_zrtp" translatable="false">zrtp</string>
+  <string name="pref_overlay" translatable="false">Video overlay</string>
+  <string name="pref_overlay_key" translatable="false">pref_overlay_key</string>
+  <string name="pref_overlay_summary" translatable="false">Display call video in overlay when outside the application</string>
+  <string name="pref_passwd_key" translatable="false">pref_passwd_key</string>
+  <string name="pref_preferred_fps" translatable="false">Preferred FPS</string>
+  <string name="pref_preferred_video_fps_key" translatable="false">pref_preferred_video_fps_key</string>
+  <string name="pref_preferred_video_size_key" translatable="false">pref_preferred_video_size_key</string>
+  <string name="pref_prefix_key" translatable="false">pref_prefix_key</string>
+  <string name="pref_proxy_key" translatable="false">pref_proxy_key</string>
+  <string name="pref_push_notification_key" translatable="false">pref_push_notification_key</string>
+  <string name="pref_remote_provisioning_key" translatable="false">pref_remote_provisioning_key</string>
+  <string name="pref_remote_provisioning_title" translatable="false">Remote provisioning</string>
+  <string name="pref_rfc2833_dtmf_key" translatable="false">pref_rfc2833_dtmf_key</string>
+  <string name="pref_service_notification" translatable="false">Enable service notification</string>
+  <string name="pref_service_notification_key" translatable="false">pref_service_notification_key</string>
+  <string name="pref_sip_port_key" translatable="false">pref_sip_port_key</string>
+  <string name="zrtp_dialog" translatable="false">ZRTP token is %s You should only accept if you have the same token as your correspondent</string>
+  <string name="yes" translatable="false">Si</string>
+  <string name="wizard_username_incorrect" translatable="false">El usuario no es valido.</string>
+  <string name="wizard_server_unavailable" translatable="false">Server unreachable, verify your network connection.</string>
+  <string name="wizard_passwords_unmatched" translatable="false">Passwords do not match.</string>
+  <string name="wizard_password_incorrect" translatable="false">Su contraseña no es correcta</string>
+  <string name="wizard_email_incorrect" translatable="false">Su correo no es valido.</string>
+  <string name="welcome" translatable="false">Welcome</string>
+  <string name="warning_wrong_destination_address" translatable="false">Cannot build destination address from %s</string>
+  <string name="username_too_short" translatable="false">Username too short</string>
+  <string name="username_too_long" translatable="false">Username too long</string>
+  <string name="username_invalid_size" translatable="false">Username length invalid</string>
+  <string name="use_username_instead_or_phone_number" translatable="false">Use a username (optional)</string>
+  <string name="use_email_for_validation" translatable="false">Use email address for account validation</string>
+  <string name="unread_messages" translatable="false">%i unread messages</string>
+  <string name="tunnel_mode_entry_value_disabled" translatable="false">desabilitado</string>
+  <string name="tunnel_mode_entry_value_auto" translatable="false">auto</string>
+  <string name="tunnel_mode_entry_value_always" translatable="false">siempre</string>
+  <string name="tunnel_mode_entry_value_3G_only" translatable="false">3G_only</string>
+  <string name="transport_unsupported" translatable="false">Unsupported transport</string>
+  <string name="temp_photo_name_with_date" translatable="false">phonealo-android-photo-%s</string>
+  <string name="temp_photo_name" translatable="false">phonealo-android-photo-temp</string>
+  <string name="sync_mimetype" translatable="false">vnd.android.cursor.item/com.phonealo</string>
+  <string name="sync_account_type" translatable="false">com.phonealo</string>
+  <string name="status_not_connected" translatable="false">No registrado</string>
+  <string name="setup_key" translatable="false">setup_key</string>
+  <string name="setup_confirm_username" translatable="false">Your username will be %s.r r It may differ from your input to match requirements.r Do you accept?</string>
+  <string name="select_your_country" translatable="false">Select your Country</string>
+  <string name="request_failed" translatable="false">Failed to query the server. Please try again later</string>
+  <string name="remote_provisioning_url" translatable="false">URL</string>
+  <string name="remote_provisioning_failure" translatable="false">Failed to download or apply remote provisioning profile...</string>
+  <string name="remote_provisioning_again_title" translatable="false">Remote provisioning</string>
+  <string name="remote_provisioning_again_message" translatable="false">Do you want to change the provisioning URI?</string>
+  <string name="remote_composing" translatable="false">Remote is writing...</string>
+  <string name="quit" translatable="false">Quit</string>
+  <string name="push_sender_id_key" translatable="false">push_sender_id_key</string>
+  <string name="pref_sipaccount_key" translatable="false">pref_sipaccount_key</string>
+  <string name="pref_sipinfo_dtmf" translatable="false">Send out-band DTMFs(SIP INFO)</string>
+  <string name="pref_stun_server" translatable="false">STUN / TURN server</string>
+  <string name="pref_stun_server_key" translatable="false">pref_stun_server_key</string>
+  <string name="pref_transport_key" translatable="false">pref_transport_key</string>
+  <string name="pref_transport_tcp_key" translatable="false">pref_transport_tcp_key</string>
+  <string name="pref_transport_tls_key" translatable="false">pref_transport_tls_key</string>
+  <string name="pref_transport_udp_key" translatable="false">pref_transport_udp_key</string>
+  <string name="pref_transport_use_random_ports_key" translatable="false">pref_transport_use_random_ports_key</string>
+  <string name="pref_tunnel_host" translatable="false">Hostname</string>
+  <string name="pref_tunnel_host_key" translatable="false">pref_tunnel_host_key</string>
+  <string name="pref_tunnel_key" translatable="false">pref_tunnel_key</string>
+  <string name="pref_tunnel_mode_key" translatable="false">pref_tunnel_mode_key</string>
+  <string name="pref_tunnel_port_key" translatable="false">pref_tunnel_port_key</string>
+  <string name="pref_turn_enable" translatable="false">Enable TURN</string>
+  <string name="pref_turn_enable_key" translatable="false">pref_turn_enable_key</string>
+  <string name="pref_turn_passwd_key" translatable="false">pref_turn_passwd_key</string>
+  <string name="pref_turn_passwd_title" translatable="false">STUN / TURN password (optional)</string>
+  <string name="pref_turn_username_key" translatable="false">STUN / TURN password (optional)</string>
+  <string name="pref_turn_username_title" translatable="false">STUN / TURN username (optional)</string>
+  <string name="pref_upnp_enable" translatable="false">Enable UPNP</string>
+  <string name="pref_upnp_enable_key" translatable="false">pref_upnp_enable_key</string>
+  <string name="pref_use_lime_encryption" translatable="false">Use LIME encryption</string>
+  <string name="pref_use_lime_encryption_key" translatable="false">pref_use_lime_encryption_key</string>
+  <string name="pref_user_name_key" translatable="false">pref_user_name_key</string>
+  <string name="pref_username_key" translatable="false">pref_username_key</string>
+  <string name="pref_video_automatically_accept_video_key" translatable="false">pref_video_automatically_accept_video_key</string>
+  <string name="pref_video_codec_h263_key" translatable="false">pref_video_codec_h263_key</string>
+  <string name="pref_video_codec_h263_title" translatable="false">H263</string>
+  <string name="pref_video_codec_h264_key" translatable="false">pref_video_codec_h264_key</string>
+  <string name="pref_video_codec_h264_title" translatable="false">H264</string>
+  <string name="pref_video_codec_mpeg4_key" translatable="false">pref_video_codec_mpeg4_key</string>
+  <string name="pref_video_codec_mpeg4_title" translatable="false">MP4V-ES</string>
+  <string name="pref_video_codec_vp8_key" translatable="false">pref_video_codec_vp8_key</string>
+  <string name="pref_video_codec_vp8_title" translatable="false">pref_video_codec_vp8_key</string>
+  <string name="pref_video_codecs_key" translatable="false">pref_video_codecs_key</string>
+  <string name="pref_video_enable_key" translatable="false">pref_video_enable_key</string>
+  <string name="pref_video_initiate_call_with_video_key" translatable="false">pref_video_initiate_call_with_video_key</string>
+  <string name="pref_video_key" translatable="false">pref_video_key</string>
+  <string name="pref_video_port_description" translatable="false">Video port or port range (minport-maxport)</string>
+  <string name="pref_video_port_key" translatable="false">pref_video_port_key</string>
+  <string name="pref_video_preset" translatable="false">Video preset</string>
+  <string name="pref_video_preset_key" translatable="false">pref_video_preset_key</string>
+  <string name="pref_video_use_front_camera_key" translatable="false">pref_video_use_front_camera_key</string>
+  <string name="pref_voice_mail" translatable="false">Voice mail URI</string>
+  <string name="pref_voice_mail_key" translatable="false">pref_voice_mail_key</string>
+  <string name="pref_wifi_only" translatable="false">Use WiFi only</string>
+  <string name="pref_wifi_only_key" translatable="false">pref_wifi_only_key</string>
+  <string name="pref_wizard_key" translatable="false">pref_wizard_key</string>
+  <string name="processing_image" translatable="false">Processing image, can take up to a few seconds depending on the size of the file</string>
+  <string name="push_reg_id_key" translatable="false">push_reg_id_key</string>
+  <string name="push_sender_id" translatable="false">622464153529</string>
+</resources>

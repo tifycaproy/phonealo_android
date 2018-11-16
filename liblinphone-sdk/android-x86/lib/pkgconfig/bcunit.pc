@@ -1,0 +1,10 @@
+prefix=/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-x86
+exec_prefix=/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-x86/bin
+libdir=/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-x86/lib
+includedir=/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-x86/include
+
+Name: BCUnit
+Description: C Unit Testing Framework
+Version: 3.0-1
+Libs: -L/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-x86/lib -lbcunit
+Cflags: -I/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-x86/include

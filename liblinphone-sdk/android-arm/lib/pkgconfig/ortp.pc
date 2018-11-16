@@ -1,0 +1,10 @@
+# This is a comment
+prefix=/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm
+exec_prefix=/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm/bin
+includedir=/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm/include
+
+Name: oRTP 
+Description: Implement the RFC3550 (RTP) with a easy to use API with high and low level access.
+Version: 0.27.0
+Libs: -L/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm/lib -lortp 
+Cflags: -I/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm/include 

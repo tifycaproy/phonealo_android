@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/topbar"
+	android:layout_width="match_parent"
+	android:layout_height="60dp"
+	android:layout_gravity="center_horizontal"
+	android:background="@color/colorH"
+	android:orientation="horizontal">
+
+	<ImageView
+		android:id="@+id/back"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="0.2"
+		android:background="@drawable/toolbar_button"
+		android:contentDescription="@string/content_description_back"
+		android:padding="18dp"
+		android:src="@drawable/back" />
+
+	<TextView
+		style="@style/font1"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="0.6"
+		android:gravity="center"
+		android:text="@string/assistant"
+		android:textColor="@color/colorF" />
+
+	<ImageView
+		android:id="@+id/assistant_cancel"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="0.2"
+		android:background="@drawable/toolbar_button"
+		android:contentDescription="@string/content_description_dialer_back"
+		android:padding="15dp"
+		android:src="@drawable/dialer_back" />
+
+</LinearLayout>

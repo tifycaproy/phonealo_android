@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/status"
+	android:background="@color/colorH"
+	android:layout_width="match_parent"
+	android:layout_height="18dp"
+	android:orientation="horizontal"
+	android:visibility="visible">
+
+	<TextView
+		android:id="@+id/status_text"
+		style="@style/font16"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_marginLeft="30dp"
+		android:layout_marginStart="30dp"
+		android:gravity="top"
+		android:paddingLeft="5dp"
+		android:text="@string/status_not_connected"
+		android:textColor="@color/colorE"
+		android:textSize="12sp" />
+
+	<ImageView
+        android:id="@+id/status_led"
+        android:src="@drawable/led_disconnected"
+        android:paddingLeft="5dp"
+        android:adjustViewBounds="true"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_marginLeft="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="1dp" />
+
+	<RelativeLayout
+		android:id="@+id/status_bar"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_alignTop="@+id/status_led">
+
+		<ImageView
+			android:id="@+id/side_menu_button"
+			android:src="@drawable/menu_burger"
+			android:contentDescription="@string/content_description_menu"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="10dp"
+			android:layout_centerInParent="true"
+			android:layout_alignParentLeft="true"
+			android:visibility="invisible"/>
+
+		<ImageView
+			android:id="@+id/call_quality"
+			android:src="@drawable/call_quality_indicator_0"
+			android:contentDescription="@string/content_description_call_quality"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="10dp"
+			android:layout_centerInParent="true"
+			android:layout_alignParentLeft="true"
+			android:visibility="gone" />
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:orientation="horizontal"
+			android:padding="10dp"
+			android:id="@+id/userStatus"
+			android:baselineAligned="false">
+
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/info_saldo"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_alignParentEnd="true"
+			android:layout_alignParentRight="true"
+			android:gravity="center"
+			android:paddingEnd="20dp"
+			android:paddingRight="20dp"
+			android:paddingStart="20dp"
+			android:text="00.00 €"
+			android:textColor="@color/colorA"
+			android:visibility="invisible" />
+
+		<ImageView
+			android:id="@+id/voicemail"
+			android:src="@drawable/voicemail"
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="center_vertical"
+			android:visibility="gone" />
+
+		<TextView
+			android:id="@+id/voicemail_count"
+			style="@style/font16"
+			android:layout_alignParentRight="true"
+			android:paddingLeft="5dp"
+			android:paddingRight="10dp"
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:visibility="gone" />
+
+		<ImageView
+			android:id="@+id/encryption"
+			android:src="@drawable/security_ko"
+			android:contentDescription="@string/content_description_encryption"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:padding="5dp"
+			android:layout_centerInParent="true"
+			android:visibility="gone"
+			android:layout_alignParentRight="true" />
+	</RelativeLayout>
+</RelativeLayout>

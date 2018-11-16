@@ -1,0 +1,9 @@
+# This is a comment
+prefix=/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm
+exec_prefix=/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm
+Name:  bctoolbox-tester
+Description: A common set of tester wrappers used by Belledonne Communications's softwares
+Requires.private: bcunit
+Version: 0.3.0
+Libs: -L/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm/lib -lbctoolbox-tester
+Cflags: -I/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm/include

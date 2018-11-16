@@ -1,0 +1,41 @@
+{
+  "account": {
+    "id": "0034666777888",
+    "name": "Manolo Buz",
+    "sipserver": "95.215.60.127",
+    "port": "5060",
+    "secret": "1234"
+  },
+  "rates": [
+    {
+      "tar_cod": "8",
+      "tar_country_prefix": "0053",
+      "tar_price": "0.46",
+      "tar_created": null,
+      "tar_active": "1",
+      "tar_currency": "EUR"
+    },
+    {
+      "tar_cod": "9",
+      "tar_country_prefix": "001",
+      "tar_price": "0.12",
+      "tar_created": null,
+      "tar_active": "1",
+      "tar_currency": "EUR"
+    }
+  ],
+  "countries": [
+    {
+      "country_prefix": "0034",
+      "country_name": "España"
+    }
+  ],
+  "balance": [
+    {
+      "bal_cod": "1",
+      "bal_usu_cod": "1",
+      "bal_currency": "EUR",
+      "bal_amount": "66.66"
+    }
+  ]
+}

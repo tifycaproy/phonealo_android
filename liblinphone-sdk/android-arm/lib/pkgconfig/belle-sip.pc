@@ -1,0 +1,12 @@
+# This is a comment
+prefix=/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm
+exec_prefix=/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm/bin
+includedir=/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm/include
+
+Name: belle-sip 
+Description: A c based implementation of the SIP (RFC 3261)  telephony protocol 
+Requires.private:  z 
+Version: 1.5.0
+Libs: -L/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm/lib -lbellesip
+Libs.private: -L/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm/lib -lantlr3c -L -lbctoolbox -ldl
+Cflags: -I/Users/macmini02/Documents/AndroidStudioProjects/linphonean/linphone-android/liblinphone-sdk/android-arm/include 

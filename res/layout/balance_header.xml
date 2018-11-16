@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorG"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/country_prefix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:paddingLeft="25dp"
+        android:text="País"
+        android:textAlignment="center"
+        android:textColor="@color/colorA"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.27"
+        android:gravity="left"
+        android:text="Prefijo"
+        android:textColor="@color/colorA"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19"
+        android:gravity="left"
+        android:text="Precio"
+        android:textColor="@color/colorA"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/country_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:gravity="center"
+        android:text="Moneda"
+        android:textColor="@color/colorA"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

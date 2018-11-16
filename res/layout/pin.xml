@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/font6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/assistant_generic_account"
+            android:textAllCaps="true"
+            android:textColor="@color/colorA" />
+
+        <TextView
+            android:text="@string/assistant_login_desc"
+            style="@style/font11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="@string/pin"
+                style="@style/font13"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/pincode_et"
+                android:background="@drawable/resizable_textfield"
+                android:textColor="@color/colorB"
+                android:inputType="number"
+                android:contentDescription="@string/content_description_username_field"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:singleLine="true"/>
+
+            <Button
+                android:id="@+id/login_btn"
+                android:text="@string/assistant_login"
+                android:background="@drawable/assistant_button"
+                android:textColor="@drawable/assistant_button_text_color"
+                style="@style/font8"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/findPin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Averiguar pin"
+                android:visibility="invisible"
+                android:padding="15dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

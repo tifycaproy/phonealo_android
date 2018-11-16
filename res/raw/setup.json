@@ -1,0 +1,35 @@
+[
+  {
+    "rates":[
+      {
+        "tar_cod":"8",
+        "tar_country_prefix":"0053",
+        "tar_price":"0.46",
+        "tar_created":null,
+        "tar_active":"1",
+        "tar_currency":"EUR"
+      },
+      {
+        "tar_cod":"9",
+        "tar_country_prefix":"001",
+        "tar_price":"0.12",
+        "tar_created":null,
+        "tar_active":"1",
+        "tar_currency":"EUR"
+      }
+    ],
+    "countries": [{
+      "country_prefix": "0034",
+      "country_name": "Espa\u00f1a"
+    }, {
+      "country_prefix": "0053",
+      "country_name": "Cuba"
+    }, {
+      "country_prefix": "001",
+      "country_name": "Estados Unidos"
+    }, {
+      "country_prefix": "0033",
+      "country_name": "Francia"
+    }]
+  }
+]
